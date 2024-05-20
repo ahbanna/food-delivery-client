@@ -1,0 +1,17 @@
+.navbar {
+  padding: 20px 0 !important;
+}
+.navbar-nav a {
+  padding: 10px 25px;
+}
+.login-btn {
+  font-weight: 600;
+}
+.signup-btn {
+  background-color: var(--primary-color);
+  /* padding: 10px 25px; */
+  border-radius: 50px;
+  color: var(--white) !important;
+  font-weight: 600;
+  transition: 0.5s;
+}
