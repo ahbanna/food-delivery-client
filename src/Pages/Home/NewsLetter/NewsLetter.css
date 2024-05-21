@@ -1,0 +1,15 @@
+.newsletter-area {
+  padding: 70px 0;
+  background-color: #ffefec;
+  /* text-align: left; */
+}
+.newsletter-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+.newsletter-area .section-title-area {
+  text-align: left;
+  margin: 0 auto;
+  width: 100%;
+}
