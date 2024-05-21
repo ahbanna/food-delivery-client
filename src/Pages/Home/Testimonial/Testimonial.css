@@ -1,0 +1,99 @@
+.testimonial-area {
+  padding: 80px 0;
+}
+.all-testimonials.container {
+  width: 50%;
+  position: relative;
+}
+.single-testimonial {
+  padding: 30px;
+  text-align: center;
+}
+.single-testimonial p {
+  font-size: 24px;
+  font-style: italic !important;
+  margin-top: 30px;
+  color: #000;
+}
+.quote-icon svg {
+  color: var(--primary-color);
+  font-size: 65px;
+}
+.customer-name {
+  font-weight: 600;
+  font-size: 18px !important;
+  color: #111 !important;
+  margin: 0 !important;
+}
+.customer-position {
+  font-size: 14px !important;
+  color: #616161 !important;
+  margin-top: 0 !important;
+}
+.testimonial-area .swiper {
+  padding: 30px 0;
+}
+.testimonial-area .swiper-button-prev,
+.testimonial-area .swiper-button-next {
+  height: 36px;
+  width: 36px;
+  background: var(--gray);
+  border-radius: 50%;
+  color: #fff;
+}
+.testimonial-area .swiper-button-prev {
+  top: 88% !important;
+  left: 46%;
+}
+.testimonial-area .swiper-button-next {
+  right: 45% !important;
+  top: 88%;
+}
+.testimonial-area .swiper-button-prev::after,
+.testimonial-area .swiper-button-next::after {
+  font-size: 14px !important;
+}
+.testimonial-area .swiper-button-next:hover,
+.testimonial-area .swiper-button-prev:hover {
+  background: var(--primary-color);
+  transition: 0.3s;
+}
+
+/*  */
+/* ----------------- RESPONSIVE starts ----------- */
+/* Large device */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/* MD device */
+@media (min-width: 768px) and (max-width: 991px) {
+  .testimonial-area {
+    padding: 50px 0 20px 0;
+  }
+  .testimonial-area .swiper-button-prev {
+    right: 6% !important;
+  }
+}
+/*SM Device*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .testimonial-area {
+    padding: 50px 0 0 0;
+  }
+  .testimonial-area .swiper-button-prev {
+    right: 8% !important;
+  }
+}
+/* Mobile device */
+@media (max-width: 575px) {
+  .testimonial-area {
+    padding: 50px 0;
+  }
+  .testimonial-area .swiper {
+    padding: 40px 0 0 0;
+  }
+  .testimonial-area .swiper-button-prev {
+    display: none;
+  }
+  .testimonial-area .swiper-button-next {
+    display: none;
+  }
+}
