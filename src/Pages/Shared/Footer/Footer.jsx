@@ -15,8 +15,12 @@ const Footer = () => {
               <img src={logo} alt="" srcset="" />
             </Link>
             <div className="app-download">
-              <img src={appStore} alt="" srcset="" />
-              <img src={googlePlay} alt="" className="google-play" />
+              <Link to="/">
+                <img src={appStore} alt="" srcset="" />
+              </Link>
+              <Link to="/">
+                <img src={googlePlay} alt="" className="google-play" />
+              </Link>
             </div>
           </div>
           <div className="footer-menu">

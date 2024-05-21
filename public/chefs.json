@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Gordon Ramsay",
+    "image": "https://i.ibb.co/9NVHQrP/pic1-3b5437b3.jpg",
+    "position": "Head Chef"
+  },
+  {
+    "id": 2,
+    "name": "Julia Child",
+    "image": "https://i.ibb.co/VBmDfP3/pic4-5482de10.jpg",
+    "position": "Executive Chef"
+  },
+  {
+    "id": 3,
+    "name": "Massimo Bottura",
+    "image": "https://i.ibb.co/F8xpwD2/pic3-8cfd3e20.jpg",
+    "position": "Sous Chef"
+  },
+  {
+    "id": 4,
+    "name": "Alice Waters",
+    "image": "https://i.ibb.co/tZYPkvg/pic2-5b12c32f.jpg",
+    "position": "Pastry Chef"
+  }
+]

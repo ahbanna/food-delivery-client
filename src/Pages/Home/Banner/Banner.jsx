@@ -4,6 +4,7 @@ import bannerImg from "../../../assets/images/banner/banner-img.png";
 import PrimaryButton from "../../../components/PrimaryButton/PrimaryButton";
 import googlePlay from "../../../assets/images/banner/google-play.png";
 import appStore from "../../../assets/images/banner/app-store.png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -29,8 +30,12 @@ const Banner = () => {
             </div>
           </div>
           <div className="app-download">
-            <img src={appStore} alt="" />
-            <img src={googlePlay} alt="" className="google-play" />
+            <Link to="/">
+              <img src={appStore} alt="" />
+            </Link>
+            <Link to="/">
+              <img src={googlePlay} alt="" className="google-play" />
+            </Link>
           </div>
         </div>
         <div className="banner-img">
