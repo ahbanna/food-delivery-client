@@ -15,6 +15,7 @@
   --white: #ffffff;
   --white-two: #f6f6f6;
   --white-three: #fafafa;
+  --black: #000000;
   --gray: #afafaf;
   --font-inter: "Inter", sans-serif;
 }
@@ -68,6 +69,9 @@ img {
 ul {
   padding: 0 !important;
   margin: 0 !important;
+}
+li {
+  list-style: none;
 }
 ol {
   counter-reset: counter;
