@@ -10,7 +10,7 @@ const Banner = () => {
     <div className="banner-area">
       <Container>
         <div className="banner-content">
-          <h2>Your Favorite Food Delivery Partner</h2>
+          <h1>Your Favorite Food Delivery Partner</h1>
           <p>
             The food at your doorstep. Why starve when you have us. You hunger
             partner. Straight out of the oven to your doorstep.{" "}

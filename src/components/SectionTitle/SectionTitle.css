@@ -1,0 +1,13 @@
+.section-title-area {
+  text-align: center;
+  margin: 0 auto;
+  width: 30%;
+}
+.section-subtitle {
+  font-size: 18px;
+}
+.section-title {
+  font-size: 46px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
