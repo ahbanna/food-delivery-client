@@ -1,0 +1,23 @@
+.order-area {
+  padding: 100px 0;
+}
+.item-with-number span {
+  text-align: center;
+  font-weight: 600;
+  font-size: 45px;
+  color: var(--primary-color);
+  z-index: -1;
+  position: relative;
+}
+.order-area .single-item {
+  width: 220px;
+  height: 300px;
+  margin-top: -23px;
+}
+.order-area .dish-items {
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.order-area .item-img {
+  border-radius: 16px;
+}
