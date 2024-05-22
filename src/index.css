@@ -12,6 +12,7 @@
   -moz-osx-font-smoothing: grayscale;
   --text-color: #191720;
   --primary-color: #ff5331;
+  --secondary-color: rgb(0, 155, 0);
   --white: #ffffff;
   --white-two: #f6f6f6;
   --white-three: #fafafa;
@@ -88,4 +89,47 @@ h1 {
 }
 h5 {
   font-size: 24px !important;
+}
+/* RESPONSIVE */
+/* Extra Large / Desktop device */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  h1 {
+    font-size: 58px !important;
+  }
+}
+/* Large device */
+@media (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    font-size: 45px !important;
+  }
+  h5 {
+    font-size: 18px !important;
+  }
+}
+/* MD device */
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 44px !important;
+  }
+  h5 {
+    font-size: 16px !important;
+  }
+}
+/* SM devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  h1 {
+    font-size: 38px !important;
+  }
+  h5 {
+    font-size: 16px !important;
+  }
+}
+/* Mobile device */
+@media (max-width: 575px) {
+  h1 {
+    font-size: 32px !important;
+  }
+  h5 {
+    font-size: 16px !important;
+  }
 }

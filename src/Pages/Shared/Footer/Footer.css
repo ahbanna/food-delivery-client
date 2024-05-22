@@ -1,8 +1,12 @@
 .footer-area {
   background-color: var(--black);
-  padding: 80px 0;
+  padding: 80px 0 20px 0;
 }
 .footer-content {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.all-footer-menus {
   display: flex;
   justify-content: space-between;
 }
@@ -35,4 +39,134 @@
 .copyright-text {
   color: var(--gray);
   margin-top: 15px;
+}
+/* RESPONSIVE */
+/* Extra Large / Desktop device */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+/* Large device */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .footer-content {
+    grid-template-columns: 30% 70%;
+  }
+  .footer-menu-title {
+    font-size: 16px;
+  }
+  .footer-area .nav-link {
+    font-size: 15px !important;
+    margin: 10px 0;
+  }
+  .footer-area .app-download {
+    margin-top: 20px;
+  }
+  .footer-area .google-play {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+  .footer-bottom {
+    padding-top: 10px;
+  }
+}
+/* MD device */
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-area {
+    padding: 40px 0;
+  }
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-area .app-download {
+    margin-top: 20px;
+  }
+  .all-footer-menus {
+    margin-top: 25px;
+  }
+  .footer-menu-title {
+    font-size: 16px;
+  }
+  .footer-area .nav-link {
+    font-size: 15px !important;
+    margin: 10px 0;
+  }
+  .footer-bottom {
+    padding-top: 10px;
+  }
+}
+/* SM devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-area {
+    padding: 40px 0;
+  }
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-area .app-download {
+    margin-top: 20px;
+  }
+  .all-footer-menus {
+    margin-top: 25px;
+  }
+  .footer-menu-title {
+    font-size: 16px;
+  }
+  .footer-area .nav-link {
+    font-size: 15px !important;
+    margin: 10px 0;
+  }
+  .footer-bottom {
+    padding-top: 10px;
+  }
+  .copyright-text {
+    font-size: 14px;
+  }
+  .footer-bottom-menu .nav-link {
+    font-size: 14px !important;
+  }
+}
+/* Mobile device */
+@media (max-width: 575px) {
+  .footer-area {
+    padding: 40px 0;
+  }
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .footer-area .app-download {
+    margin-top: 20px;
+  }
+  .all-footer-menus {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 25px;
+  }
+  .footer-menu-title {
+    font-size: 16px;
+  }
+  .footer-area .nav-link {
+    font-size: 14px !important;
+    margin: 7px 0;
+  }
+  .footer-area .google-play {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+  .footer-bottom {
+    padding-top: 10px;
+    flex-direction: column;
+  }
+  .copyright-text {
+    font-size: 14px;
+  }
+  .footer-bottom-menu .nav-link {
+    font-size: 14px !important;
+  }
 }

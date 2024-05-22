@@ -35,3 +35,125 @@ input:focus-visible {
 .google-play {
   margin-left: 30px;
 }
+/* RESPONSIVE */
+/* Extra Large / Desktop device */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+/* Large device */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner-area .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .banner-img img {
+    max-width: 100%;
+  }
+  .search-text input {
+    height: 50px;
+  }
+  .search-btn {
+    right: 5px;
+    top: 4px;
+  }
+}
+/* MD device */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-area .container {
+    flex-direction: column;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content p {
+    margin-right: 0;
+  }
+  .banner-img {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .banner-img img {
+    max-width: 100%;
+  }
+  .search-area {
+    margin: 10px 0 20px 0;
+  }
+  .search-text input {
+    height: 50px;
+  }
+  .search-btn {
+    right: 0px;
+    top: 0px;
+  }
+}
+/* SM devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner-area .container {
+    flex-direction: column;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content p {
+    margin-right: 0;
+  }
+  .banner-img {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .banner-img img {
+    max-width: 100%;
+  }
+  .search-area {
+    margin: 10px 0 20px 0;
+  }
+  .banner-content p {
+    font-size: 16px;
+  }
+  .search-text input {
+    height: 50px;
+  }
+  .search-btn {
+    right: 0px;
+    top: 0px;
+  }
+}
+/* Mobile device */
+@media (max-width: 575px) {
+  .banner-area .container {
+    flex-direction: column;
+  }
+  .banner-content {
+    text-align: center;
+  }
+  .banner-content p {
+    margin-right: 0;
+  }
+  .banner-img {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .search-area {
+    margin: 10px 0 20px 0;
+    width: 100%;
+  }
+  .banner-content p {
+    font-size: 16px;
+  }
+  .search-text input {
+    height: 50px;
+    width: 100%;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+  .banner-img img {
+    max-width: 100%;
+  }
+  .search-btn {
+    right: 5px;
+    top: 6px;
+  }
+  .google-play {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+}

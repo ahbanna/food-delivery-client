@@ -62,3 +62,155 @@
   font-size: 23px;
   margin: 25px 0 0 0;
 }
+/* RESPONSIVE */
+/* Extra Large / Desktop device */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+/* Large device */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .dishes-area {
+    padding: 60px 0;
+  }
+  .dishes-first-row {
+    padding-top: 30px;
+  }
+  .single-item {
+    height: 190px;
+    width: 140px;
+    margin-right: 10px;
+  }
+  .delivery h5 {
+    margin: 25px 25px 0 25px;
+  }
+  .comment p {
+    font-size: 16px;
+  }
+}
+/* MD device */
+@media (min-width: 768px) and (max-width: 991px) {
+  .dishes-area {
+    padding: 50px 0;
+  }
+  .delivery h5 {
+    margin: 25px 25px 0 25px;
+  }
+  .comment p {
+    font-size: 16px;
+  }
+  .single-item {
+    height: 170px;
+    width: 140px;
+    margin-right: 5px;
+  }
+  .single-item h5 {
+    margin-top: 10px;
+  }
+  .dishes-first-row {
+    margin-left: 0;
+  }
+  .item-img {
+    height: 80px;
+    width: 80px;
+  }
+  .comment p {
+    margin: 0;
+  }
+  .comment svg {
+    font-size: 25px;
+  }
+  .dishes-second-row {
+    margin-top: 20px;
+  }
+}
+/* SM devices */
+@media (min-width: 576px) and (max-width: 767px) {
+  .dishes-area {
+    padding: 40px 0;
+  }
+  .delivery h5 {
+    margin: 25px 25px 0 25px;
+  }
+  .comment p {
+    font-size: 16px;
+  }
+  .single-item {
+    height: 170px;
+    width: 140px;
+    margin-right: 5px;
+  }
+  .single-item h5 {
+    margin-top: 10px;
+  }
+  .dishes-first-row {
+    margin-left: 0;
+    padding-top: 20px;
+    flex-direction: column;
+  }
+  .dish-items {
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .delivery {
+    margin-top: 20px;
+  }
+  .item-img {
+    height: 80px;
+    width: 80px;
+  }
+  .comment p {
+    margin: 0;
+  }
+  .comment svg {
+    font-size: 25px;
+  }
+  .dishes-second-row {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+}
+/* Mobile device */
+@media (max-width: 575px) {
+  .dishes-area {
+    padding: 40px 0;
+  }
+  .delivery h5 {
+    margin: 25px 25px 0 25px;
+  }
+  .comment p {
+    font-size: 16px;
+  }
+  .single-item {
+    height: 170px;
+    width: 140px;
+    margin-right: 5px;
+  }
+  .single-item h5 {
+    margin-top: 10px;
+  }
+  .dishes-first-row {
+    margin-left: 0;
+    padding-top: 20px;
+    flex-direction: column;
+  }
+  .dish-items {
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .delivery {
+    margin-top: 20px;
+  }
+  .item-img {
+    height: 80px;
+    width: 80px;
+  }
+  .comment p {
+    margin: 0;
+  }
+  .comment svg {
+    font-size: 25px;
+  }
+  .dishes-second-row {
+    margin-top: 20px;
+    flex-direction: column;
+  }
+}
